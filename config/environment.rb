@@ -38,4 +38,9 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
+
+  if ENV['RAILS_ENV'] == 'development'
+    config.gem 'spriter', :version => '>=0.7.0'
+    config.middleware.use 'Rack::Spriter'
+  end
 end

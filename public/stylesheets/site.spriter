@@ -34,7 +34,7 @@ div#trunk-logo {
 ul#menu, ul#social-media {
   float:left;
   margin:0;
-  margin-top:49px;
+  margin-top:60px;
 }
 
 ul#menu li {
@@ -42,46 +42,49 @@ ul#menu li {
   width:110px;
 }
 
+ul#menu li#film {
+  width:85px;
+}
+
 ul#menu li a {
   display:block;
   width:85px;
   height:0;
-  padding-top:30px;
+  padding-top:24px;
   overflow:hidden;
   background-repeat:no-repeat;
-  background-position:center center;
 }
 
 ul#menu li#film a {
-  background-image:url('../images/menu/film.png');
+  -spriter-background: 'film.png';
 }
 
 ul#menu li#about-us a {
-  background-image:url('../images/menu/about-us.png');
+  -spriter-background: 'about-us.png';
 }
 
 ul#menu li#contact a {
-  background-image:url('../images/menu/contact.png');
+  -spriter-background: 'contact.png';
 }
 
 ul#menu li#blog a {
-  background-image:url('../images/menu/blog.png');
+  -spriter-background: 'blog.png';
 }
 
 ul#menu li#film a:hover {
-  background-image:url('../images/menu/film-hover.png');
+  -spriter-background: 'film-hover.png';
 }
 
 ul#menu li#about-us a:hover {
-  background-image:url('../images/menu/about-us-hover.png');
+    -spriter-background: 'about-us-hover.png';
 }
 
 ul#menu li#contact a:hover {
-  background-image:url('../images/menu/contact-hover.png');
+  -spriter-background: 'contact-hover.png';
 }
 
 ul#menu li#blog a:hover {
-  background-image:url('../images/menu/blog-hover.png');
+  -spriter-background: 'blog-hover.png';
 }
 
 ul#social-media {
