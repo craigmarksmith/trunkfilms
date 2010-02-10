@@ -1,0 +1,264 @@
+body {
+  background-color:#161616;
+  padding:0;
+  margin:0;
+  font-family:arial,sans-serif;
+  font-weight:normal;
+}
+
+a {
+  outline:none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hidden {
+  display:none;
+}
+
+div#header div#trunk-logo a img {
+  border:0;
+}
+
+div#header {
+  width:900px;
+  margin:50px auto 0 auto;
+}
+
+div#trunk-logo {
+  float:left;
+}
+
+ul#menu, ul#social-media {
+  float:left;
+  margin:0;
+  margin-top:60px;
+}
+
+ul#menu li {
+  float:left;
+  width:110px;
+}
+
+ul#menu li#film {
+  width:85px;
+}
+
+ul#menu li a {
+  display:block;
+  width:85px;
+  height:0;
+  padding-top:24px;
+  overflow:hidden;
+  background-repeat:no-repeat;
+}
+
+ul#menu li#film a {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 0; /* film.png */
+}
+
+ul#menu li#about-us a {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -22px; /* about-us.png */
+}
+
+ul#menu li#contact a {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -44px; /* contact.png */
+}
+
+ul#menu li#blog a {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -66px; /* blog.png */
+}
+
+ul#menu li#film a:hover {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -92px; /* film-hover.png */
+}
+
+ul#menu li#about-us a:hover {
+    background: url(/images/sprites.png?t=1265824383) no-repeat 0 -114px; /* about-us-hover.png */
+}
+
+ul#menu li#contact a:hover {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -136px; /* contact-hover.png */
+}
+
+ul#menu li#blog a:hover {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -158px; /* blog-hover.png */
+}
+
+ul#social-media {
+  float:right;
+  padding:0;
+  margin:0;
+  margin-top:40px;
+}
+
+ul#social-media li {
+  padding-right: 5px;
+}
+
+ul#social-media li a {
+  display:block;
+  overflow:hidden;
+  background-repeat:no-repeat;
+  background-position:center center;
+  height:0;
+  padding-top:38px;
+  margin-top:5px;
+  width:38px;
+  float:left;
+}
+
+ul#social-media li {
+  float:left;
+}
+
+ul#social-media li#twitter a {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -184px; /* twitter.png */
+}
+
+ul#social-media li#vimeo a {
+  background: url(/images/sprites.png?t=1265824383) no-repeat 0 -222px; /* vimeo.png */
+}
+
+div#contact-details {
+  position:absolute;
+  top:0px;
+  left:484px;
+  z-index:2;
+  height:120px;
+  width:280px;
+  background-color:#000;
+  opacity: 0.5;
+  color:#FFF;
+  padding:5px;
+  font-size:13px;
+  font-weight:lighter;
+}
+
+div#contact-details a {
+  color:#FFF;
+}
+
+div#contact-details h3 {
+  padding:0;
+  margin:0;
+  margin-bottom:5px;
+  font-size:12px;
+}
+
+div#contact-details div.personal-info {
+  float:left;
+  padding-right:9px;
+  padding-top:9px;
+}
+
+div#content-window {
+  width:900px;
+  height:506px;
+  margin:0 auto;
+  overflow:hidden;
+  clear:left;
+  position:relative;
+}
+
+
+/*film page*/
+
+div#movies {
+  width:1000000px;
+}
+
+div.movie {
+  display:inline;
+  height:506px;
+  width:900px;
+}
+
+div.arrow {
+  z-index:100;
+  position:absolute;
+  top:210px;
+  display:block;
+}
+
+div.arrow a {
+  z-index:100;
+  padding-top:80px;
+  display:block;
+  overflow:hidden;
+  height:0;
+  width:200px;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+div#scroll-left {
+  left:-40px;
+}
+
+div#scroll-left a {
+  background-image:url('../images/left-arrow.png');
+}
+
+div#scroll-right {
+  left:740px;
+}
+
+div#scroll-right a {
+  background-image:url('../images/right-arrow.png');
+}
+
+
+/* about us */
+div#about-us {
+  background-color:#153d49;
+  height:100%;
+  width:10000px;
+}
+
+div#about-us img {
+  margin-top:35px;
+  padding:0;
+}
+
+div#arrow-border {
+  background-color:#AFAFAF;
+  height:70px;
+  padding:0;
+  margin:0;
+  margin-top:-5px;
+}
+
+div#texts {
+  zoom:1;
+}
+
+div.text {
+  width:655px;
+  padding:5px 0;
+  color:#FFF;
+  float:left;
+  font-size:14px;
+}
+
+div.last {
+  width:1310px;
+}
+
+div.text h2 {
+  width:100%;
+  border-bottom:4px solid #FFF;
+  padding-left:20px;
+}
+
+div.text p {
+  padding:3px 20px;
+}
+
+div#about-us ul {
+  margin:0;
+  padding:0;
+  padding-left:20px;
+}
