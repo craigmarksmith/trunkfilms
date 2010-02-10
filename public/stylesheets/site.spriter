@@ -105,6 +105,7 @@ ul#social-media li a {
   background-position:center center;
   height:0;
   padding-top:38px;
+  margin-top:5px;
   width:38px;
   float:left;
 }
@@ -114,11 +115,11 @@ ul#social-media li {
 }
 
 ul#social-media li#twitter a {
-  background-image:url('../images/menu/twitter.png');
+  -spriter-background: 'twitter.png';
 }
 
 ul#social-media li#vimeo a {
-  background-image:url('../images/menu/vimeo.png');
+  -spriter-background: 'vimeo.png';
 }
 
 div#contact-details {
