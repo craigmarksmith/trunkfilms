@@ -11,8 +11,8 @@ class CreateMovies < ActiveRecord::Migration
     '8408186',
     '7941668',
     '7781274',
-    '7044832'].each do |id|
-      Movie.create!(:vimeo_clip_id => id)
+    '7044832'].each_with_index do |id, seq|
+      Movie.create!(:vimeo_clip_id => id, :sequence_number => seq)
     end
     
   end
