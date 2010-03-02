@@ -19,7 +19,7 @@ TrunkFilm.Movies = {
     $('#scroll-left').click(TrunkFilm.Movies.scrollLeft);
     $('#scroll-right').click(TrunkFilm.Movies.scrollRight);
     $('.arrow').hide();
-    $().mousemove(function(e){
+    $(document).mousemove(function(e){
       if(TrunkFilm.Movies.mouseIsOverVideo(e.pageX, e.pageY)){
         $('.arrow').show();
       }else{
