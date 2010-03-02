@@ -1,0 +1,16 @@
+<h1>Movies</h1>
+
+<%= link_to "Create Movie &raquo;", new_admin_movie_path %>
+
+<table>
+  <tr>
+    <th>Vimeo Identifier</th>
+    <th></th>
+  </tr>
+<% @movies.each do |movie| %>
+  <tr class="<%= cycle('odd', 'even') %>">
+    <td><%= movie.vimeo_clip_id %></td>
+    <td><%= link_to "Edit", edit_admin_movie_path(movie) %></td>
+  </tr>
+<% end %>
+</table>
