@@ -6,11 +6,33 @@
   <tr>
     <th>Vimeo Identifier</th>
     <th></th>
+    <th></th>
   </tr>
-<% @movies.each do |movie| %>
-  <tr class="<%= cycle('odd', 'even') %>">
-    <td><%= movie.vimeo_clip_id %></td>
-    <td><%= link_to "Edit", edit_admin_movie_path(movie) %></td>
-  </tr>
-<% end %>
+  <tbody id="sortable">
+    <% @movies.each do |movie| %>
+      <tr class="<%= cycle('odd', 'even') %>" id="movie_<%= movie.id %>">
+        <td width='2000'><%= movie.vimeo_clip_id %></td>
+        <td class="handle"></td>
+        <td width='40' align="center"><%= link_to "Edit", edit_admin_movie_path(movie) %></td>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
+
+<script type="text/javascript" charset="utf-8">
+  $(function(){
+    $("#sortable").sortable({
+      axis:'y',
+      handle:'.handle',
+      update: function(event, ui){
+        $.ajax({
+          type: 'put',
+          data: $("#sortable").sortable('serialize'),
+          traditional: true,
+          url:'<%= prioritize_movies_admin_movies_path %>',
+        })
+      }
+    });
+    $(".sortable").disableSelection();
+  })
+</script>

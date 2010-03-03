@@ -95,3 +95,8 @@ td, th {
   padding:3px;
   font-size:10pt;
 }
+
+.handle {
+  background: url(/images/sort-handle.png) no-repeat center center;
+  width:20px;
+}

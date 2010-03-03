@@ -40,7 +40,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.namespace :admin do |admin|
     admin.homepage '/', :controller => "home"
-    admin.resources :movies
+    admin.resources :movies, :collection => { :prioritize_movies => :put }
   end
 
   map.about_us '/about-us', :controller => 'static_pages', :action => 'about_us'
