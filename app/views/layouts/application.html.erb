@@ -18,44 +18,11 @@
    <![endif]-->
 </head>
 <body>
-  <div id='header'>
-    <div id='trunk-logo'><a href="/"><img src="images/trunk-logo.png" alt="trunk films logo"/></a></div>
-    <ul id="menu">
-      <li id="film"><%= link_to "film", root_path %></li>
-      <li id="about-us"><%= link_to "about us", about_us_path %></li>
-      <li id="contact"><a href="">contact</a></li>
-      <li id="blog"><a href="javascript:void(0)" onclick="window.open('http://www.trunkfilms.com/blog')">blog</a></li>
-    </ul>
-    <ul id="social-media">
-      <li id="twitter"><a href="javascript:void(0)" onclick="window.open('http://twitter.com/trunkfilms')">twitter</a></li>
-      <li id="vimeo"><a href="javascript:void(0)" onclick="window.open('http://vimeo.com/trunkfilms')">vimeo</a></li>
-    </ul>
-  </div>
+  <%= render :partial => 'shared/header' %>
   <div id='content-window'>
-
-    <div id="contact-details">
-      <div class='general vcard'>
-        <h3>general inquiries:</h3>
-        <div class="hidden fn org">trunkfilms</div>
-        <div class="tel">(+44) (0) 208 351 7257</div>
-        <a class="email" href="mailto:info@trunkfilms.com">info@trunkfilms.com</a>
-      </div>
-
-      <div class="personal-info vcard">
-        <div class="fn">Steve Middleditch</div>
-        <div class="tel">(+44) (0) 7763 629721</div>
-        <a class="email" href="mailto:steve@trunkfilms.com">steve@trunkfilms.com</a>
-      </div>
-      <div class="personal-info vcard">
-        <div class="fn">Will Billany</div>
-        <div class="tel">(+44) (0) 7760 489704</div>
-        <a class="email" href="mailto:will@trunkfilms.com">will@trunkfilms.com</a>
-      </div>
-    </div>
+    <%= render :partial => 'shared/contact_details' %>
 
     <%= yield %>
   </div>
-
-
 </body>
 </html>
