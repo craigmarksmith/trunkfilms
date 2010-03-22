@@ -40,6 +40,8 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 
+  config.middleware.use 'Rack::DirectoryIndex'
+
   if ENV['RAILS_ENV'] == 'development'
     config.gem 'spriter', :version => '>=0.7.0'
     config.middleware.use 'Rack::Spriter'
