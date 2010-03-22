@@ -17,7 +17,9 @@ filter:    erb
   <%= render_rails_partial 'shared/_header.erb' %>
   <div id='content-window'>
     <%= render_rails_partial 'shared/_contact_details.erb' %>
-    <%= @content %>
+    <div id="content">
+      <%= @content %>
+    </div>
   </div>
 </body>
 </html>

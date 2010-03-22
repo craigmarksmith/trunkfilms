@@ -1,0 +1,13 @@
+---
+title: Craig is the world's best developer
+created_at:  2008-08-02 14:06:40.000000 -06:00
+filter:
+  - erb
+  - textile
+---
+div(created_at). <%= @page.created_at.strftime('%d %B %Y') %>
+
+h1. <%= @page.title %>
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.
+

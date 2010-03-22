@@ -262,3 +262,8 @@ div#about-us ul {
   padding:0;
   padding-left:20px;
 }
+
+.post {
+  background-color: #FFF;
+  padding: 10px;
+}
