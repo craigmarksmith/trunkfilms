@@ -1,0 +1,40 @@
+---
+title: Welwyn Woods
+created_at:  2010-03-05
+filter:
+  - erb
+  - textile
+---
+<div class='post'>
+
+div(created_at). <%= @page.created_at.strftime('%d %B %Y') %>
+
+h1. <%= @page.title %>
+
+The trunk blog took a short sabbatical, but it's back after our favourite web developer Craig added a little bit of pixy dust. Shot Craig!
+
+In the meantime every cat & dog has now got a DSLR camera for video, and it's great isn't it! All us indies out there now have no excuse and I guess this is the time to show if you have what it takes, exciting times for sure. Really looking forward to seeing what amazing things people come up with in the very near future.
+
+Funny though, if all this DSLR tech with its beautiful images has taught me anything it is that a stunning shot is nothing without content or a story. Nobody can rely on a good camera to save their films anymore!
+
+But I digress. I just wanted to share my thoughts on a wee afternoon mess around with the 7D just outside the lovely little village (cough town) of Welwyn. Steve and myself wanted to see how we could get more creative with our shots without being fancy and using excessive kit.
+
+Kit list:
+Canon 7D
+Sigma 30mm 1.4
+Canon 85mm 1.8
+Canon body cap with drilled hole and a piece of card with a pinhole taped on
+Tripod
+Monopod
+
+Most of the shots are just messing about, for the car shots we just got the 7D with 30mm on the monopod (on tight!) and flipped the unit upside-down to stabilise the shot a tad and to get it nice and low. Same with the running sequence, we just whipped the 7D monopod setup 180 degrees. It's quite amazing what can be achieved with a monopod and a little help from gravity. That said, you do get a lot of shake and horizontal movement when still, but then again it's not a steadycam but a heck of a lot cheaper.
+
+Very gingerly we began throwing the 7D while recording at 60fps, I know this sounds stupid and probably is, however, we can catch and we figured we're paying for the tough build of the 7D we might as well use it! Jokes aside the beauty of hucking a 7D while recording at 60fps is the motion can be slowed and the free fall of the camera body keeps the shot AMAZINGLY smooth, it's pretty unique.
+
+Finally got to shoot some pinhole video, we've talked about this before and we've been keen to do it but the winter months haven't been kind with light. We had to crank the ISO up but it actually came out surprisingly well. Be interesting to see where this could go. A time-lapse can be a beautiful thing but are a bit stale, I wonder how a pinhole time-lapse might do….?
+
+Back with more soon!
+
+w
+
+</div>

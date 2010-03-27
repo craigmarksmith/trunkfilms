@@ -15,5 +15,5 @@ posts = @pages.find(:limit => :all,
 %>
 
 <% posts.each do |page| -%>
-  <div class="post"><%= render(page) %></div>
+  <%= render(page) %>
 <% end -%>

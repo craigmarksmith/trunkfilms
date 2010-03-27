@@ -4,6 +4,7 @@ body {
   margin:0;
   font-family:arial,sans-serif;
   font-weight:normal;
+  font-size:13px;
 }
 
 a {
@@ -263,7 +264,3 @@ div#about-us ul {
   padding-left:20px;
 }
 
-.post {
-  background-color: #FFF;
-  padding: 10px;
-}
