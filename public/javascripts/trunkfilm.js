@@ -74,8 +74,8 @@ TrunkFilm.Movies = {
       var flashvars = {
         clip_id: this.id.replace(/movie_/,''),
         show_portrait: 1,
-        show_byline: 1,
-        show_title: 1,
+        show_byline: 0,
+        show_title: 0,
         js_api: 1
       };
       var params = {
