@@ -27,6 +27,8 @@ Canon body cap with drilled hole and a piece of card with a pinhole taped on
 Tripod
 Monopod
 
+<%= vimeo_movie(10499407) %>
+
 Most of the shots are just messing about, for the car shots we just got the 7D with 30mm on the monopod (on tight!) and flipped the unit upside-down to stabilise the shot a tad and to get it nice and low. Same with the running sequence, we just whipped the 7D monopod setup 180 degrees. It's quite amazing what can be achieved with a monopod and a little help from gravity. That said, you do get a lot of shake and horizontal movement when still, but then again it's not a steadycam but a heck of a lot cheaper.
 
 Very gingerly we began throwing the 7D while recording at 60fps, I know this sounds stupid and probably is, however, we can catch and we figured we're paying for the tough build of the 7D we might as well use it! Jokes aside the beauty of hucking a 7D while recording at 60fps is the motion can be slowed and the free fall of the camera body keeps the shot AMAZINGLY smooth, it's pretty unique.
