@@ -57,35 +57,35 @@ ul#menu li a {
 }
 
 ul#menu li#film a {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 0; /* film.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 0; /* film.png */
 }
 
 ul#menu li#about-us a {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -22px; /* about-us.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -22px; /* about-us.png */
 }
 
 ul#menu li#contact a {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -44px; /* contact.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -44px; /* contact.png */
 }
 
 ul#menu li#blog a {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -66px; /* blog.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -66px; /* blog.png */
 }
 
 ul#menu li#film a:hover {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -92px; /* film-hover.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -92px; /* film-hover.png */
 }
 
 ul#menu li#about-us a:hover {
-    background: url(/images/sprites.png?t=1269691502) no-repeat 0 -114px; /* about-us-hover.png */
+    background: url(/images/sprites.png?t=1269863845) no-repeat 0 -114px; /* about-us-hover.png */
 }
 
 ul#menu li#contact a:hover {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -136px; /* contact-hover.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -136px; /* contact-hover.png */
 }
 
 ul#menu li#blog a:hover {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -158px; /* blog-hover.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -158px; /* blog-hover.png */
 }
 
 ul#social-media {
@@ -96,7 +96,7 @@ ul#social-media {
 }
 
 ul#social-media li {
-  padding-right: 5px;
+  padding-left: 5px;
 }
 
 ul#social-media li a {
@@ -116,11 +116,11 @@ ul#social-media li {
 }
 
 ul#social-media li#twitter a {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -184px; /* twitter.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -184px; /* twitter.png */
 }
 
 ul#social-media li#vimeo a {
-  background: url(/images/sprites.png?t=1269691502) no-repeat 0 -222px; /* vimeo.png */
+  background: url(/images/sprites.png?t=1269863845) no-repeat 0 -222px; /* vimeo.png */
 }
 
 div#contact-details {
@@ -175,6 +175,18 @@ div.movie {
   display:inline;
   height:506px;
   width:900px;
+  position:relative;
+}
+
+div.movie div.title {
+  position:absolute;
+  width:100%;
+  color:#FFF;
+  background-color:#000;
+  opacity: 0.5;
+  padding:5px 10px 40px 80px;
+  margin:0;
+  font-size:20px;
 }
 
 div.arrow {

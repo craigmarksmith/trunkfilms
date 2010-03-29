@@ -96,7 +96,7 @@ ul#social-media {
 }
 
 ul#social-media li {
-  padding-right: 5px;
+  padding-left: 5px;
 }
 
 ul#social-media li a {
