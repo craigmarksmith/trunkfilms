@@ -3,7 +3,7 @@
   height = 506
   width = 900
   @movies.each do |movie|
-    url = "http://vimeo.com/moogaloop.swf?clip_id=#{movie.vimeo_clip_id}&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
+    url = "http://vimeo.com/moogaloop.swf?clip_id=#{movie.vimeo_clip_id}&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
   %>
   <div class='movie'>
     <object id="movie_<%= movie.vimeo_clip_id %>" width="<%= width %>" height="<%= height %>">
