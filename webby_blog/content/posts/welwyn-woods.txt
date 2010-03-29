@@ -19,6 +19,8 @@ Funny though, if all this DSLR tech with its beautiful images has taught me anyt
 
 But I digress. I just wanted to share my thoughts on a wee afternoon mess around with the 7D just outside the lovely little village (cough town) of Welwyn. Steve and myself wanted to see how we could get more creative with our shots without being fancy and using excessive kit.
 
+<%= vimeo_movie(10499407) %>
+
 Kit list:
 Canon 7D
 Sigma 30mm 1.4
@@ -26,8 +28,6 @@ Canon 85mm 1.8
 Canon body cap with drilled hole and a piece of card with a pinhole taped on
 Tripod
 Monopod
-
-<%= vimeo_movie(10499407) %>
 
 Most of the shots are just messing about, for the car shots we just got the 7D with 30mm on the monopod (on tight!) and flipped the unit upside-down to stabilise the shot a tad and to get it nice and low. Same with the running sequence, we just whipped the 7D monopod setup 180 degrees. It's quite amazing what can be achieved with a monopod and a little help from gravity. That said, you do get a lot of shake and horizontal movement when still, but then again it's not a steadycam but a heck of a lot cheaper.
 
