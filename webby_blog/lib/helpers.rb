@@ -24,7 +24,7 @@ module VimeoHelper
   def vimeo_movie(vimeo_id)
     height = 395
     width = 702
-    url = "http://vimeo.com/moogaloop.swf?clip_id=#{vimeo_id}&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
+    url = "http://vimeo.com/moogaloop.swf?clip_id=#{vimeo_id}&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1"
 
     "<object id='movie_10499407' width='#{width}' height='#{height}'>
       <param name='allowfullscreen' value='true' />
