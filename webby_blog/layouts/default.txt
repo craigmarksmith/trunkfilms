@@ -30,7 +30,7 @@ filter:    erb
         %>
 
         <% posts.each do |page| -%>
-          <li><a href="<%= page.url.sub(/^\//,'/blog/') %>"><%= page.title %></a></li>
+          <li><%= link_to_page(page) %></li>
         <% end -%>
       </ul>
       <h2>Blogs we follow:</h2>

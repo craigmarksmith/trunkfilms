@@ -52,3 +52,12 @@ div#sidebar li a:hover {
   webkit-border-radius:5px;
   border-radius:5px;
 }
+
+.post h1 a {
+  color:#000;
+  text-decoration:none;
+}
+
+.post h1 a:hover {
+  text-decoration:underline;
+}

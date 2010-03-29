@@ -9,7 +9,7 @@ filter:
 
 div(created_at). <%= @page.created_at.strftime('%d %B %Y') %>
 
-h1. <%= @page.title %>
+h1. <%= link_to_page(@page) %>
 
 The trunk blog took a short sabbatical, but it's back after our favourite web developer Craig added a little bit of pixy dust. Shot Craig!
 
