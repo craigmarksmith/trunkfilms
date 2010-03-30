@@ -39,4 +39,7 @@ Back with more soon!
 
 w
 
+<%= render(:partial => '/disqus')%>
+
 </div>
+
