@@ -157,7 +157,6 @@ div#contact-details div.personal-info {
 
 div#content-window {
   width:900px;
-  height:506px;
   margin:0 auto;
   overflow:hidden;
   clear:left;
@@ -165,17 +164,56 @@ div#content-window {
 }
 
 
-/*film page*/
-
-div#movies {
-  width:1000000px;
+div#sidebar {
+  float:left;
+  width:165px;
+  color:#E1E1E1;
+  font-size:14px;
 }
+
+div#sidebar h2 {
+  margin:0;
+  margin-top:20px;
+  padding:0;
+  font-weight:normal;
+  font-size:18px;
+}
+div#sidebar ul {
+  margin:0;
+  margin-top:3px;
+  padding:0;
+}
+div#sidebar li {
+  margin:0;
+  padding:0;
+  padding-bottom:2px;
+}
+
+div#sidebar li a {
+  color:#E1E1E1;
+  text-decoration:none;
+}
+
+div#sidebar li a:hover {
+  text-decoration:underline;
+}
+
+/*films page*/
 
 div.movie {
-  display:inline;
-  height:506px;
-  width:900px;
+  float:right;
 }
+
+/*div.movie div.title {
+  position:absolute;
+  width:100%;
+  color:#FFF;
+  background-color:#000;
+  opacity: 0.5;
+  padding:5px 10px 40px 80px;
+  margin:0;
+  font-size:20px;
+}*/
 
 div.arrow {
   z-index:100;
