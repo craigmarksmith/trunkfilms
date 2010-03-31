@@ -156,6 +156,7 @@ div#contact-details div.personal-info {
 }
 
 div#content-window {
+  height:506px;
   width:900px;
   margin:0 auto;
   overflow:hidden;
@@ -284,7 +285,7 @@ div#arrow-border {
   height:70px;
   padding:0;
   margin:0;
-  margin-top:-5px;
+  margin-top:-3px;
 }
 
 div#texts {
