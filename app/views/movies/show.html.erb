@@ -14,7 +14,8 @@
 </div>
 
 <div id="sidebar">
-  <ul id="projects">
+  <h2 class="projects">Projects</h2>
+  <ul>
     <% @movies.each do |movie| %>
       <li><%= link_to movie.title, movie_path(movie) %></li>
     <% end %>
