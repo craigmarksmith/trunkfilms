@@ -2,6 +2,11 @@ div#content-window {
   height:auto;
 }
 
+div#sidebar h2.blog {
+  background-image: url("/images/blog-header.png");
+  padding-top:105px;
+}
+
 div#content {
   margin-left:167px;
 }

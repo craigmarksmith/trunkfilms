@@ -19,7 +19,7 @@ filter:    erb
   <div id='content-window'>
     <%= render_rails_partial 'shared/_contact_details.erb' %>
     <div id="sidebar">
-      <img src="/images/blog-header.png" />
+      <h2 class="blog">Blog</h2>
       
       <h2>Posts:</h2>
       <ul>
