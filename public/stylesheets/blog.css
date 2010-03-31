@@ -2,11 +2,6 @@ div#content-window {
   height:auto;
 }
 
-div#sidebar,
-div#content {
-  margin-top:10px;
-}
-
 div#content {
   margin-left:167px;
 }

@@ -163,6 +163,11 @@ div#content-window {
   position:relative;
 }
 
+div#sidebar,
+div#content,
+div.movie {
+  margin-top:10px;
+}
 
 div#sidebar {
   float:left;
