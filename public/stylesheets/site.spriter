@@ -43,8 +43,8 @@ ul#menu li {
   width:110px;
 }
 
-ul#menu li#film {
-  width:85px;
+ul#menu li#projects {
+  width:105px;
 }
 
 ul#menu li a {
@@ -56,8 +56,8 @@ ul#menu li a {
   background-repeat:no-repeat;
 }
 
-ul#menu li#film a {
-  -spriter-background: 'film.png';
+ul#menu li#projects a {
+  -spriter-background: 'projects.png';
 }
 
 ul#menu li#about-us a {
@@ -72,8 +72,8 @@ ul#menu li#blog a {
   -spriter-background: 'blog.png';
 }
 
-ul#menu li#film a:hover {
-  -spriter-background: 'film-hover.png';
+ul#menu li#projects a:hover {
+  -spriter-background: 'projects-hover.png';
 }
 
 ul#menu li#about-us a:hover {
