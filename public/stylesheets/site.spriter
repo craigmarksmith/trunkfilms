@@ -203,7 +203,19 @@ div#sidebar li a:hover {
   text-decoration:underline;
 }
 
+div#sidebar h2 {
+  background-repeat: no-repeat;
+  height:0;
+  margin:0;
+  overflow:hidden;
+}
+
 /*films page*/
+
+div#sidebar h2.projects {
+  background-image: url("/images/projects-header.png");
+  padding-top:65px;
+}
 
 div.movie {
   float:right;
