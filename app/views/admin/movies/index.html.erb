@@ -6,6 +6,7 @@
   <tr>
     <th>Thumbnail</th>
     <th>Vimeo Identifier</th>
+    <th>Title</th>
     <th></th>
     <th></th>
   </tr>
@@ -13,7 +14,8 @@
     <% @movies.each do |movie| %>
       <tr class="<%= cycle('odd', 'even') %>" id="movie_<%= movie.id %>">
         <td class="movie-thumb-<%= movie.vimeo_clip_id %>"></td>
-        <td width='2000'><%= movie.vimeo_clip_id %></td>
+        <td width='20'><%= movie.vimeo_clip_id %></td>
+        <td width='2000'><%= movie.title %></td>
         <td class="handle"></td>
         <td width='40' align="center"><%= link_to "Edit", edit_admin_movie_path(movie) %></td>
       </tr>
