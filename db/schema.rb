@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100327184221) do
+ActiveRecord::Schema.define(:version => 20100402074247) do
 
   create_table "movies", :force => true do |t|
     t.string   "vimeo_clip_id"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(:version => 20100327184221) do
     t.datetime "updated_at"
     t.string   "title"
     t.text     "description"
+    t.string   "permalink"
   end
 
   create_table "users", :force => true do |t|

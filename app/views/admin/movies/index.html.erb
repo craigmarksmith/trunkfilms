@@ -17,7 +17,7 @@
         <td width='20'><%= movie.vimeo_clip_id %></td>
         <td width='2000'><%= movie.title %></td>
         <td class="handle"></td>
-        <td width='40' align="center"><%= link_to "Edit", edit_admin_movie_path(movie) %></td>
+        <td width='40' align="center"><%= link_to "Edit", edit_admin_movie_path(movie.id) %></td>
       </tr>
     <% end %>
   </tbody>
