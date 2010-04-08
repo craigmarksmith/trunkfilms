@@ -1,9 +1,13 @@
 <%
   height = 408
   width = 725
-  url = "http://vimeo.com/moogaloop.swf?clip_id=#{@movie.vimeo_clip_id}&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
+  url = "http://vimeo.com/moogaloop.swf?clip_id=#{@movie.vimeo_clip_id}&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1"
 %>
 <div class='movie'>
+  <div class="details">
+    <h1><%= @movie.title %></h1>
+    <p><%= @movie.description %></p>
+  </div>
   <object id="movie_<%= @movie.vimeo_clip_id %>" width="<%= width %>" height="<%= height %>">
     <param name="allowfullscreen" value="true" />
     <param name="allowscriptaccess" value="always" />
@@ -21,3 +25,9 @@
     <% end %>
   </ul>
 </div>
+
+<script>
+  $(document).ready(function(){
+    TrunkFilm.Movie.init(<%= @movie.vimeo_clip_id %>, <%= height %>, <%= width %>);
+  });
+</script>

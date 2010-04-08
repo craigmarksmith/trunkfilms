@@ -220,18 +220,26 @@ div#sidebar h2.projects {
 
 div.movie {
   float:right;
+  position:relative;
 }
 
-/*div.movie div.title {
+div.details {
   position:absolute;
-  width:100%;
+  width:500px;
   color:#FFF;
-  background-color:#000;
-  opacity: 0.5;
-  padding:5px 10px 40px 80px;
+  background-image:url('/images/transparent-background.png');
+  padding:5px 10px 2px 70px;
   margin:0;
-  font-size:20px;
-}*/
+  margin-top: 70px;
+  font-size:11px;
+}
+
+div.details h1{
+  font-size:14px;
+}
+
+div.details p {
+}
 
 div.arrow {
   z-index:100;
