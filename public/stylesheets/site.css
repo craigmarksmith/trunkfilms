@@ -41,10 +41,12 @@ ul#menu, ul#social-media {
 ul#menu li {
   float:left;
   width:110px;
+  margin-left:30px;
 }
 
 ul#menu li#projects {
   width:105px;
+  margin-left:25px;
 }
 
 ul#menu li a {
@@ -57,35 +59,35 @@ ul#menu li a {
 }
 
 ul#menu li#projects a {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 0; /* projects.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 0; /* projects.png */
 }
 
 ul#menu li#about-us a {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -24px; /* about-us.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -24px; /* about-us.png */
 }
 
 ul#menu li#contact a {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -46px; /* contact.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -46px; /* contact.png */
 }
 
 ul#menu li#blog a {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -68px; /* blog.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -68px; /* blog.png */
 }
 
 ul#menu li#projects a:hover {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -94px; /* projects-hover.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -94px; /* projects-hover.png */
 }
 
 ul#menu li#about-us a:hover {
-    background: url(/images/sprites.png?t=1270736227) no-repeat 0 -118px; /* about-us-hover.png */
+    background: url(/images/sprites.png?t=1271624106) no-repeat 0 -118px; /* about-us-hover.png */
 }
 
 ul#menu li#contact a:hover {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -140px; /* contact-hover.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -140px; /* contact-hover.png */
 }
 
 ul#menu li#blog a:hover {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -162px; /* blog-hover.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -162px; /* blog-hover.png */
 }
 
 ul#social-media {
@@ -116,11 +118,11 @@ ul#social-media li {
 }
 
 ul#social-media li#twitter a {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -188px; /* twitter.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -188px; /* twitter.png */
 }
 
 ul#social-media li#vimeo a {
-  background: url(/images/sprites.png?t=1270736227) no-repeat 0 -226px; /* vimeo.png */
+  background: url(/images/sprites.png?t=1271624106) no-repeat 0 -226px; /* vimeo.png */
 }
 
 div#contact-details {
@@ -174,7 +176,7 @@ div#sidebar {
   float:left;
   width:165px;
   color:#E1E1E1;
-  font-size:14px;
+  font-size:12px;
 }
 
 div#sidebar h2 {
@@ -231,11 +233,11 @@ div.details {
   padding:5px 10px 2px 70px;
   margin:0;
   margin-top: 70px;
-  font-size:11px;
+  font-size:12px;
 }
 
 div.details h1{
-  font-size:14px;
+  font-size:18px;
 }
 
 div.details p {
