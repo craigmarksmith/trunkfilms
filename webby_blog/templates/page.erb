@@ -7,15 +7,15 @@ filter:
 ---
 <div class='post'>
 
-div(created_at). <%= @page.created_at.strftime('%d %B %Y') %>
+div(created_at). <%%= @page.created_at.strftime('%d %B %Y') %>
 
-h1. <%= link_to_page(@page) %>
+h1. <%%= link_to_page(@page) %>
 
 Text goes here, maybe you'd also like a video:
-<%= vimeo_movie(10499407) %>
+<%%= vimeo_movie(10499407) %>
 
 some more stuff
 
-<%= render(:partial => '/disqus')%>
+<%%= render(:partial => '/disqus')%>
 
 </div>
