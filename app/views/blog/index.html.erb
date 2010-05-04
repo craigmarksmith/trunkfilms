@@ -1,6 +1,6 @@
 <div id="posts">
   <% @posts.each do |post| %>
-    <%= post.to_html %>
+    <div class="post"><%= post.to_html %></div>
   <% end %>
 </div>
 <%= render :partial => 'sidebar' %>

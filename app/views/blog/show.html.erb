@@ -1,4 +1,7 @@
 <div id="posts">
+<div class="post">
   <%= @post.to_html %>
+  <%= render :partial => 'disqus' %>
+  </div>
 </div>
 <%= render :partial => 'sidebar' %>

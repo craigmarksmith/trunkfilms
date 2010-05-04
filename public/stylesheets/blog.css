@@ -3,6 +3,17 @@ div#sidebar h2.blog {
   padding-top:105px;
 }
 
+div#sidebar.blog h3 {
+  font-size:15px;
+  font-weight:normal;
+  margin:0;
+  padding:0;
+}
+
+div#sidebar.blog ul {
+  margin-bottom:20px;
+}
+
 #posts {
   width:725px;
   float:right;
