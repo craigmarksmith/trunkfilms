@@ -1,0 +1,8 @@
+<div id="sidebar">
+  <h2 class="blog">Blog</h2>
+  <ul>
+    <% @posts.each do |post| %>
+      <li><%= link_to post.title, post.url %></li>
+    <% end %>
+  </ul>
+</div>

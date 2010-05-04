@@ -1,15 +1,9 @@
----
-title: Welwyn Woods
-created_at:  2010-03-05
-filter:
-  - erb
-  - textile
----
+-title: Welwyn Woods
+-created_at: 2010-03-05
+----
+
 <div class='post'>
-
-div(created_at). <%= @page.created_at.strftime('%d %B %Y') %>
-
-h1. <%= link_to_page(@page) %>
+h1. Welwyn Woods
 
 The trunk blog took a short sabbatical, but it's back after our favourite web developer Craig added a little bit of pixy dust. Shot Craig!
 
@@ -38,8 +32,4 @@ Finally got to shoot some pinhole video, we've talked about this before and we'v
 Back with more soon!
 
 w
-
-<%= render(:partial => '/disqus')%>
-
 </div>
-

@@ -1,24 +1,4 @@
-module RailsHelper
-  def render_rails_partial(path)
-    erb_file = File.expand_path(File.join('..','app','views',path))
-    erb = ERB.new(File.read(erb_file))
-    erb.result(binding)
-  end
-end
-Webby::Helpers.register(RailsHelper)
-
-module HeaderHelper
-  def root_path
-    "/"
-  end
-
-  def about_us_path
-    '/about-us'
-  end
-end
-Webby::Helpers.register(HeaderHelper)
-
-module VimeoHelper
+module BlogHelper
   def vimeo_movie(vimeo_id)
     height = 395
     width = 702
@@ -34,11 +14,3 @@ module VimeoHelper
 
   end
 end
-Webby::Helpers.register(VimeoHelper)
-
-module GeneralHelper
-  def link_to_page(page)
-    "<a href='#{page.url.sub(/^\//,'/blog/')}'>#{page.title}</a>"
-  end
-end
-Webby::Helpers.register(GeneralHelper)

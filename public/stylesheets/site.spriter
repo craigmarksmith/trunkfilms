@@ -158,7 +158,6 @@ div#contact-details div.personal-info {
 }
 
 div#content-window {
-  height:506px;
   width:900px;
   margin:0 auto;
   overflow:hidden;
@@ -168,7 +167,8 @@ div#content-window {
 
 div#sidebar,
 div#content,
-div.movie {
+div.movie,
+div.post {
   margin-top:10px;
 }
 
