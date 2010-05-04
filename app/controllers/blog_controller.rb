@@ -31,7 +31,7 @@ class BlogController < ApplicationController
 
       setting = YAML.parse(raw[0])
       @title = setting['-title'].value
-      @created_at = setting['-created_at'].value
+      @created_at = Date.parse(setting['-created_at'].value)
     end
 
     def to_html
