@@ -6,6 +6,6 @@ class BlogController < ApplicationController
 
   def show
     @posts = BlogPost.all
-    @post = BlogPost.find(params[:id])
+    @post = BlogPost.find_by_permalink(params[:id])
   end
 end

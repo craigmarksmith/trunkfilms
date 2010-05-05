@@ -3,6 +3,7 @@ class CreateBlogPost < ActiveRecord::Migration
     create_table :blog_posts, :force => true do |t|
       t.string :title
       t.text :content
+      t.string :permalink
       t.timestamps
     end
   end
