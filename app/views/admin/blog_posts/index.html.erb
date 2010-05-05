@@ -1,0 +1,20 @@
+<h1>Movies</h1>
+
+<%= link_to "Create Blog Post &raquo;", new_admin_blog_post_path %>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Created At</th>
+    <th></th>
+  </tr>
+  <tbody>
+    <% @blog_posts.each do |blog_post| %>
+      <tr class="<%= cycle('odd', 'even') %>">
+        <td><%= blog_post.title %></td>
+        <td><%= blog_post.created_at %></td>
+        <td><%= link_to "Edit", edit_admin_blog_post_path(blog_post) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

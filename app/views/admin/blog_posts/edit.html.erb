@@ -1,0 +1,4 @@
+<% form_for [:admin, @blog_post] do |f| %>
+  <%= render :partial => 'blog_post_form_elements', :locals => {:f => f} %>
+  <%= f.submit "Update" %>
+<% end %>

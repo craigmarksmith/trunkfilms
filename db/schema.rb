@@ -9,7 +9,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100402074247) do
+ActiveRecord::Schema.define(:version => 20100505075039) do
+
+  create_table "blog_posts", :force => true do |t|
+    t.string   "title"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "movies", :force => true do |t|
     t.string   "vimeo_clip_id"
