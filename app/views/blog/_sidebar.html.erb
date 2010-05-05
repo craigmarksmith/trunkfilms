@@ -3,7 +3,7 @@
   <h3>Posts:</h3>
   <ul>
     <% @posts.each do |post| %>
-      <li><%= link_to post.title, post.url %></li>
+      <li><%= link_to post.title, blog_post_show_path(post) %></li>
     <% end %>
   </ul>
   
