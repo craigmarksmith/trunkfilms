@@ -15,11 +15,11 @@ class Admin::BlogPostsController < AdminController
   end
 
   def edit
-    @blog_post = BlogPost.find(params[:id])
+    @blog_post = BlogPost.find_by_permalink(params[:id])
   end
 
   def update
-    BlogPost.find(params[:id]).update_attributes(params[:blog_post])
+    BlogPost.find_by_permalink(params[:id]).update_attributes(params[:blog_post])
     redirect_to :action => 'index'
   end
 end
