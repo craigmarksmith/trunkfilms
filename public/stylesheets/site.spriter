@@ -281,7 +281,7 @@ div#scroll-right a {
 /* about us */
 div#about-us {
   background-color:#153d49;
-  height:100%;
+  height:475px;
   width:10000px;
 }
 
