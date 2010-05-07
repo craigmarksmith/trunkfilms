@@ -229,10 +229,12 @@ div.movie {
 
 div.details {
   position:absolute;
-  width:500px;
+  width:450px;
+  height: 180px;
+  overflow:hidden;
   color:#FFF;
   background-image:url('/images/transparent-background.png');
-  padding:5px 10px 2px 70px;
+  padding:5px 10px 2px 10px;
   margin:0;
   margin-top: 70px;
   font-size:12px;
