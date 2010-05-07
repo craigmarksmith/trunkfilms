@@ -40,8 +40,8 @@ ActionController::Routing::Routes.draw do |map|
   map.logout 'logout', :controller => 'user_sessions', :action => 'destroy'
   map.resources :user_sessions
 
-  map.blog_index 'blog', :controller => 'blog_posts', :action => 'index'
-  map.blog_post_show 'blog/:id', :controller => 'blog_posts', :action => 'show'
+  map.blog_index 'blog.:format', :controller => 'blog_posts', :action => 'index'
+  map.blog_post_show 'blog/:id.:format', :controller => 'blog_posts', :action => 'show'
 
   map.namespace :admin do |admin|
     admin.homepage '/', :controller => "home"
