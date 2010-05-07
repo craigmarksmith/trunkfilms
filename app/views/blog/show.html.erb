@@ -1,5 +1,7 @@
 <div id="posts">
 <div class="post">
+  <div class='created_at'><%= @post.created_at.strftime('%d %B %Y') %></div>
+  <h1><%= @post.title %></h1>
   <%= @post.to_html %>
   <%= render :partial => 'disqus' %>
   </div>

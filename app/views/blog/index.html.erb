@@ -1,6 +1,10 @@
 <div id="posts">
   <% @posts.each do |post| %>
-    <div class="post"><%= post.to_html %></div>
+    <div class="post">
+      <div class='created_at'><%= post.created_at.strftime('%d %B %Y') %></div>
+      <h1><%= link_to post.title, blog_post_show_path(post) %></h1>
+      <%= post.to_html %>
+    </div>
   <% end %>
 </div>
 <%= render :partial => 'sidebar' %>
