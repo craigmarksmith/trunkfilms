@@ -10,6 +10,10 @@ div#sidebar.blog h3 {
   padding:0;
 }
 
+div#sidebar h3.rss-link {
+  margin-bottom:1em;
+}
+
 div#sidebar.blog ul {
   margin-bottom:20px;
 }

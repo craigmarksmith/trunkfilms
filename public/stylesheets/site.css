@@ -59,35 +59,35 @@ ul#menu li a {
 }
 
 ul#menu li#projects a {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 0; /* projects.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 0; /* projects.png */
 }
 
 ul#menu li#about-us a {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -24px; /* about-us.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -24px; /* about-us.png */
 }
 
 ul#menu li#contact a {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -46px; /* contact.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -46px; /* contact.png */
 }
 
 ul#menu li#blog a {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -68px; /* blog.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -68px; /* blog.png */
 }
 
 ul#menu li#projects a:hover {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -94px; /* projects-hover.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -94px; /* projects-hover.png */
 }
 
 ul#menu li#about-us a:hover {
-    background: url(/images/sprites.png?t=1273175128) no-repeat 0 -118px; /* about-us-hover.png */
+    background: url(/images/sprites.png?t=1273239499) no-repeat 0 -118px; /* about-us-hover.png */
 }
 
 ul#menu li#contact a:hover {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -140px; /* contact-hover.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -140px; /* contact-hover.png */
 }
 
 ul#menu li#blog a:hover {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -162px; /* blog-hover.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -162px; /* blog-hover.png */
 }
 
 ul#social-media {
@@ -118,11 +118,11 @@ ul#social-media li {
 }
 
 ul#social-media li#twitter a {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -188px; /* twitter.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -188px; /* twitter.png */
 }
 
 ul#social-media li#vimeo a {
-  background: url(/images/sprites.png?t=1273175128) no-repeat 0 -226px; /* vimeo.png */
+  background: url(/images/sprites.png?t=1273239499) no-repeat 0 -226px; /* vimeo.png */
 }
 
 div#contact-details {
@@ -197,12 +197,14 @@ div#sidebar li {
   padding-bottom:2px;
 }
 
-div#sidebar li a {
+div#sidebar li a,
+div#sidebar h3.rss-link a {
   color:#E1E1E1;
   text-decoration:none;
 }
 
-div#sidebar li a:hover {
+div#sidebar li a:hover,
+div#sidebar h3.rss-link a:hover {
   text-decoration:underline;
 }
 

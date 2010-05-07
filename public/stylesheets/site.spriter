@@ -197,12 +197,14 @@ div#sidebar li {
   padding-bottom:2px;
 }
 
-div#sidebar li a {
+div#sidebar li a,
+div#sidebar h3.rss-link a {
   color:#E1E1E1;
   text-decoration:none;
 }
 
-div#sidebar li a:hover {
+div#sidebar li a:hover,
+div#sidebar h3.rss-link a:hover {
   text-decoration:underline;
 }
 

@@ -1,5 +1,6 @@
 <div id="sidebar" class='blog'>
   <h2 class="blog">Blog</h2>
+  <h3 class='rss-link'><%= link_to "RSS Feed", formatted_blog_index_path(:rss) %></h3>
   <h3>Posts:</h3>
   <ul>
     <% @posts.each do |post| %>
