@@ -19,7 +19,7 @@ class Admin::MoviesController < AdminController
   end
 
   def update
-    Movie.find(params[:id]).update_attributes(params[:movie])
+    Movie.find_by_permalink(params[:id]).update_attributes(params[:movie])
     redirect_to :action => 'index'
   end
 
