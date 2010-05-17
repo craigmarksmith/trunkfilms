@@ -10,7 +10,13 @@ class Admin::MoviesController < AdminController
   end
 
   def create
-    Movie.create!(params[:movie])
+    @movie = Movie.new(params[:movie])
+    unless @movie.valid?
+      render :action => 'new'
+      return
+    end
+
+    @movie.save!
     redirect_to :action => 'index'
   end
 
@@ -19,7 +25,14 @@ class Admin::MoviesController < AdminController
   end
 
   def update
-    Movie.find_by_permalink(params[:id]).update_attributes(params[:movie])
+    begin
+      @movie = Movie.find_by_permalink(params[:id])
+      @movie.update_attributes!(params[:movie])
+    rescue ActiveRecord::RecordInvalid
+      render :action => 'edit'
+      return
+    end
+
     redirect_to :action => 'index'
   end
 

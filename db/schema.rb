@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100505075039) do
+ActiveRecord::Schema.define(:version => 20100517085023) do
 
   create_table "blog_posts", :force => true do |t|
     t.string   "title"
@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(:version => 20100505075039) do
     t.string   "title"
     t.text     "description"
     t.string   "permalink"
+    t.string   "image_url"
+    t.string   "movie_url"
   end
 
   create_table "users", :force => true do |t|
