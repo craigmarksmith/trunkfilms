@@ -59,35 +59,35 @@ ul#menu li a {
 }
 
 ul#menu li#projects a {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 0; /* projects.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 0; /* projects.png */
 }
 
 ul#menu li#about-us a {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -22px; /* about-us.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -23px; /* about-us.png */
 }
 
 ul#menu li#contact a {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -44px; /* contact.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -45px; /* contact.png */
 }
 
 ul#menu li#blog a {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -66px; /* blog.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -67px; /* blog.png */
 }
 
 ul#menu li#projects a:hover {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -92px; /* projects-hover.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -93px; /* projects-hover.png */
 }
 
 ul#menu li#about-us a:hover {
-    background: url(/images/sprites.png?t=1274114154) no-repeat 0 -114px; /* about-us-hover.png */
+    background: url(/images/sprites.png?t=1274121214) no-repeat 0 -116px; /* about-us-hover.png */
 }
 
 ul#menu li#contact a:hover {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -136px; /* contact-hover.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -138px; /* contact-hover.png */
 }
 
 ul#menu li#blog a:hover {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -158px; /* blog-hover.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -160px; /* blog-hover.png */
 }
 
 ul#social-media {
@@ -118,11 +118,11 @@ ul#social-media li {
 }
 
 ul#social-media li#twitter a {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -184px; /* twitter.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -186px; /* twitter.png */
 }
 
 ul#social-media li#vimeo a {
-  background: url(/images/sprites.png?t=1274114154) no-repeat 0 -222px; /* vimeo.png */
+  background: url(/images/sprites.png?t=1274121214) no-repeat 0 -224px; /* vimeo.png */
 }
 
 div#contact-details {
