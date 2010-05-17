@@ -1,8 +1,7 @@
-<% unless @movie.is_vimeo? %>
-  <a href="<%= @movie.movie_url %>">
-<% end %>
-
 <div class='movie'>
+  <% unless @movie.is_vimeo? %>
+    <a class="static-movie" href="<%= @movie.movie_url %>">
+  <% end %>
   <div class="details">
     <h1><%= @movie.title %></h1>
     <p><%= @movie.description %></p>
@@ -23,11 +22,10 @@
   <% else %>
     <%= image_tag @movie.image_url %>
   <% end %>
+  <% if @movie.is_vimeo? %>
+    </a>
+  <% end %>
 </div>
-
-<% if @movie.is_vimeo? %>
-  </a>
-<% end %>
 
 <div id="sidebar">
   <h2 class="projects">Projects</h2>

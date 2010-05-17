@@ -334,3 +334,6 @@ div#about-us ul {
   padding-left:20px;
 }
 
+a.static-movie {
+  text-decoration:none;
+}
